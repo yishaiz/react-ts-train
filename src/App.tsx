@@ -1,8 +1,13 @@
 import CourseGoals from './components/CourseGoals';
 export default function App() {
   return (
-    <div>
-      <CourseGoals />
-    </div>
+    <main>
+      <CourseGoals
+        title="Learn React + TS "
+        decription="Learn it from the ground up"
+      >
+        hello
+      </CourseGoals>
+    </main>
   );
 }
