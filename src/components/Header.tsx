@@ -12,8 +12,8 @@ export default function Header({ image, children }: HeaderProps) {
   const { src, alt } = image;
   return (
     <div>
-      {children}
       <img src={src} alt={alt} />
+      {children}
     </div>
   );
 }
