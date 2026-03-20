@@ -1,8 +1,8 @@
 import { type PropsWithChildren } from 'react';
 
-type CourseGoalsProps = PropsWithChildren<{ title: string }>;
+type CourseGoalProps = PropsWithChildren<{ title: string }>;
 
-export default function CourseGoals({ title, children }: CourseGoalsProps) {
+export default function CourseGoal({ title, children }: CourseGoalProps) {
   return (
     <article>
       <div>
